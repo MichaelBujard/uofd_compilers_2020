@@ -1,0 +1,12 @@
+Topics for today:
+
+* using command line parameters
+* reading from a file
+  - fread vs fscanf
+* memory allocation: heap vs stack
+* memory allocation: malloc / free
+
+Stretch goals:
+
+* Reading in a file in lex
+* using lex buffers
