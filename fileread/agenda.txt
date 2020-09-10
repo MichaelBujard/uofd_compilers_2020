@@ -15,3 +15,8 @@ Stretch goals:
 
 * Reading in a file in lex
 * using lex buffers
+
+YY_BUFFER_STATE buffer = yy_scan_string(filebuf);
+yy_switch_to_buffer(buffer);
+yylex();
+yy_delete_buffer(buffer);
