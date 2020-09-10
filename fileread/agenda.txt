@@ -4,7 +4,7 @@ Topics for today:
 * reading from a file
   - fread vs fscanf
 * memory allocation: heap vs stack
-* memory allocation: malloc / free
+* memory allocation: malloc / free / calloc / realloc / alloca
 
 Stretch goals:
 
