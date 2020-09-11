@@ -1,0 +1,22 @@
+Announcements:
+    Please communicate with me!
+    Attendance Policy
+    Upcoming exam next Thursday
+
+Topics for today:
+
+* using command line parameters
+* reading from a file
+  - fread vs fscanf
+* memory allocation: heap vs stack
+* memory allocation: malloc / free / calloc / realloc / alloca
+
+Stretch goals:
+
+* Reading in a file in lex
+* using lex buffers
+
+YY_BUFFER_STATE buffer = yy_scan_string(filebuf);
+yy_switch_to_buffer(buffer);
+yylex();
+yy_delete_buffer(buffer);

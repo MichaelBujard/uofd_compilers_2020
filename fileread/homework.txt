@@ -1,0 +1,14 @@
+Homework:
+
+* Refactor lexer from last week to read from a file specified on the command line.
+    * Update the make file to no longer provide stdin redirection (remove the '<').
+    * Read the first file specified in argv
+    * open and read the file into a buffer allocated via malloc
+    * specify the read-in buffer as the lex buffer
+    * the lexer should behave as it did before
+    * clean up when complete
+    * for fun: print an error message if the file does not exist
+
+TIME LIMIT: 2 hours or so. Most of this *should* be minor modifications of existing code.
+
+EMAIL a .zip of the project folder to me. I will specifically be looking at your .l lexer file and your makefile.
